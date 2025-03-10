@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ main/hello.cpp -o build_output'
+                sh 'g++ main/hell.cpp -o build_output'
             }
         }
         stage('Test') {
